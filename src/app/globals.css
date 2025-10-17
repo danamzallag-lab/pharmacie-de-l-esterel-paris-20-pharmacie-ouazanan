@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-sora: 'Sora', system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-light text-dark transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-dark-lighter text-light;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .glass {
+    @apply backdrop-blur-lg bg-white/80 dark:bg-dark/80;
+  }
+
+  .glass-border {
+    @apply border border-white/20 dark:border-white/10;
+  }
+
+  .focus-visible-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 dark:focus-visible:ring-offset-dark;
+  }
+
+  .btn-primary {
+    @apply bg-primary hover:bg-primary-dark text-white font-semibold px-6 py-3 rounded-2xl transition-all duration-200 shadow-lg hover:shadow-xl hover:scale-105 focus-visible-ring;
+  }
+
+  .btn-secondary {
+    @apply bg-accent hover:bg-accent/90 text-white font-semibold px-6 py-3 rounded-2xl transition-all duration-200 focus-visible-ring;
+  }
+
+  .btn-outline {
+    @apply border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold px-6 py-3 rounded-2xl transition-all duration-200 focus-visible-ring;
+  }
+
+  .card {
+    @apply bg-white dark:bg-dark rounded-2xl p-6 shadow-glass dark:shadow-glass-dark transition-all duration-300;
+  }
+
+  .card-hover {
+    @apply hover:scale-105 hover:shadow-xl dark:hover:shadow-glass-dark;
+  }
+
+  .section {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .animation-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animation-delay-300 {
+    animation-delay: 300ms;
+  }
+}

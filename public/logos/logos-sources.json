@@ -1,0 +1,54 @@
+{
+  "dermo": [
+    {
+      "name": "Avène",
+      "url_svg": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Av_new-logo-2022_eau-thermale-avene.png",
+      "brand_alt": "Eau Thermale Avène",
+      "license": "CC BY-SA 4.0 (Wikimedia)"
+    },
+    {
+      "name": "La Roche-Posay",
+      "url_svg": "https://upload.wikimedia.org/wikipedia/commons/2/2d/La_Roche-Posay_%28brand%29.svg",
+      "brand_alt": "La Roche-Posay",
+      "license": "Public domain (text-logo)"
+    },
+    {
+      "name": "Bioderma",
+      "url_svg": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Bioderma_logo.svg",
+      "brand_alt": "Bioderma Laboratoire Dermatologique",
+      "license": "Stated public domain on file page"
+    },
+    {
+      "name": "SVR",
+      "url_svg": "https://brandfetch.com/labo-svr.com",
+      "brand_alt": "Laboratoire SVR",
+      "license": "Brand kit (consulter conditions)"
+    },
+    {
+      "name": "A-Derma",
+      "url_svg": "https://brandfetch.com/aderma.es",
+      "brand_alt": "A-Derma",
+      "license": "Brand kit (consulter conditions)"
+    }
+  ],
+  "complements": [
+    {
+      "name": "PiLeJe",
+      "url_svg": "https://brandfetch.com/pileje.fr?collection=logos",
+      "brand_alt": "PiLeJe",
+      "license": "Brand kit (consulter conditions)"
+    },
+    {
+      "name": "NHCO",
+      "url_svg": "https://nhco-nutrition.com/",
+      "brand_alt": "NHCO Nutrition",
+      "license": "Contacter NHCO pour kit média officiel"
+    },
+    {
+      "name": "Aboca",
+      "url_svg": "https://seeklogo.com/vector-logo/2064/aboca",
+      "brand_alt": "Aboca",
+      "license": "Vendeur de vecteurs (vérifier droits d'usage)"
+    }
+  ]
+}

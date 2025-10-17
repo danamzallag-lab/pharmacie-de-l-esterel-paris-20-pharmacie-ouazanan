@@ -1,0 +1,58 @@
+{
+  "parapharmacie": {
+    "dermo-cosmetique": [
+      {
+        "name": "Avène",
+        "logo": "/logos/avene.svg",
+        "description": "Soins dermatologiques pour peaux sensibles",
+        "categories": ["Peau sensible", "Solaire", "Anti-âge"]
+      },
+      {
+        "name": "La Roche-Posay",
+        "logo": "/logos/laroche-posay.svg",
+        "description": "Dermocosmétique recommandée par les dermatologues",
+        "categories": ["Acné", "Rosacée", "Protection solaire"]
+      },
+      {
+        "name": "Bioderma",
+        "logo": "/logos/bioderma.svg",
+        "description": "Biologie au service de la dermatologie",
+        "categories": ["Hydratation", "Nettoyage", "Solaire"]
+      },
+      {
+        "name": "SVR",
+        "logo": "/logos/svr.svg",
+        "description": "Laboratoire dermatologique français",
+        "categories": ["Anti-imperfections", "Anti-âge", "Solaire"]
+      },
+      {
+        "name": "A-Derma",
+        "logo": "/logos/aderma.svg",
+        "description": "Douceur d'avoine Rhealba pour toute la famille",
+        "categories": ["Peaux atopiques", "Irritations", "Bébé"]
+      }
+    ]
+  },
+  "complements": {
+    "marques": [
+      {
+        "name": "PiLeJe",
+        "logo": "/logos/pileje.svg",
+        "description": "Leader de la micronutrition en France",
+        "specialites": ["Immunité", "Digestion", "Stress"]
+      },
+      {
+        "name": "NHCO",
+        "logo": "/logos/nhco.svg",
+        "description": "Nutrition cellulaire active",
+        "specialites": ["Minceur", "Vitalité", "Performance"]
+      },
+      {
+        "name": "Aboca",
+        "logo": "/logos/aboca.svg",
+        "description": "Complexes moléculaires naturels",
+        "specialites": ["Digestion", "Métabolisme", "Bien-être"]
+      }
+    ]
+  }
+}

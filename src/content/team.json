@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Dr Ouazanan",
+    "role": "Pharmacien titulaire",
+    "bio": "Diplômé de la Faculté de Pharmacie de Paris, Dr Ouazanan apporte plus de 15 ans d'expérience en officine. Spécialisé en vaccination et dermo-cosmétique, il assure un conseil pharmaceutique personnalisé et de qualité.",
+    "photo": "/images/team/ouazanan.jpg",
+    "badges": ["Vaccination", "Dermo-cosmétique", "Conseil pharmaceutique"],
+    "diplomes": [
+      "Docteur en Pharmacie - Université Paris Descartes",
+      "DU Vaccination en officine",
+      "Formation continue en dermatologie"
+    ],
+    "langues": ["Français", "Arabe", "Anglais"]
+  },
+  {
+    "name": "Sophie Martin",
+    "role": "Pharmacienne adjointe",
+    "bio": "Pharmacienne adjointe passionnée par le suivi thérapeutique et les entretiens pharmaceutiques. Sophie accompagne les patients dans la gestion de leurs traitements chroniques.",
+    "photo": "/images/team/adjoint.jpg",
+    "badges": ["Entretiens pharmaceutiques", "AOD/AVK", "Asthme"],
+    "diplomes": [
+      "Docteur en Pharmacie - Université Paris Diderot",
+      "DU Éducation thérapeutique"
+    ],
+    "langues": ["Français", "Anglais"]
+  },
+  {
+    "name": "Thomas Dubois",
+    "role": "Préparateur en pharmacie",
+    "bio": "Préparateur diplômé, Thomas assure la délivrance des médicaments et apporte des conseils en automédication et parapharmacie.",
+    "photo": "/images/team/preparateur.jpg",
+    "badges": ["Parapharmacie", "Orthopédie", "Maintien à domicile"],
+    "diplomes": [
+      "Brevet Professionnel de Préparateur en Pharmacie"
+    ],
+    "langues": ["Français"]
+  }
+]

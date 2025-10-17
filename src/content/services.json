@@ -1,0 +1,109 @@
+[
+  {
+    "slug": "vaccination",
+    "title": "Vaccination",
+    "summary": "Vaccination à l'officine par un professionnel de santé habilité.",
+    "description": "Notre pharmacie est habilitée à réaliser des vaccinations dans le respect des protocoles sanitaires. Nos pharmaciens formés assurent la vaccination contre la grippe, la COVID-19 et d'autres pathologies selon les recommandations en vigueur.",
+    "bullets": [
+      "Sur rendez-vous via Doctolib",
+      "Vérification des contre-indications",
+      "Traçabilité et suivi sécurisés",
+      "Espace de confidentialité dédié"
+    ],
+    "prerequisites": [
+      "Ordonnance ou dans le cadre d'une campagne de vaccination",
+      "Carte vitale à jour",
+      "Carnet de vaccination si disponible"
+    ],
+    "cta": "Prendre RDV"
+  },
+  {
+    "slug": "consultation-pharmacien",
+    "title": "Consultation avec votre pharmacien",
+    "summary": "Consultation personnalisée prise en charge par l'Assurance Maladie.",
+    "description": "Bénéficiez d'un entretien personnalisé avec votre pharmacien pour un accompagnement santé sur mesure. Ces consultations sont prises en charge par la Sécurité Sociale dans le cadre des nouveaux services pharmaceutiques.",
+    "bullets": [
+      "Prise en charge Sécurité Sociale",
+      "Entretien confidentiel",
+      "Conseils personnalisés",
+      "Suivi régulier si nécessaire"
+    ],
+    "prerequisites": [
+      "Carte vitale à jour",
+      "Prise de rendez-vous recommandée"
+    ],
+    "cta": "Prendre RDV"
+  },
+  {
+    "slug": "bilan-prevention",
+    "title": "Bilan de prévention aux âges clés",
+    "summary": "Bilans de santé gratuits à 18-25 ans, 45-50 ans, 60-65 ans et 70-75 ans.",
+    "description": "Profitez de bilans de prévention gratuits aux âges clés de votre vie. Ces rendez-vous permettent de faire le point sur votre santé, d'identifier les facteurs de risque et d'adopter les bons réflexes pour rester en bonne santé.",
+    "bullets": [
+      "100% pris en charge par l'Assurance Maladie",
+      "Bilan personnalisé selon votre âge",
+      "Dépistage et prévention",
+      "Conseils santé adaptés"
+    ],
+    "prerequisites": [
+      "Être dans une tranche d'âge éligible (18-25, 45-50, 60-65, 70-75 ans)",
+      "Carte vitale à jour",
+      "Sur rendez-vous"
+    ],
+    "cta": "Prendre RDV"
+  },
+  {
+    "slug": "suivi-pathologies-chroniques",
+    "title": "Suivi des pathologies chroniques",
+    "summary": "Accompagnement des patients sous anticoagulants, asthmatiques, anticancéreux et personnes âgées polymédiquées.",
+    "description": "Nous assurons le suivi pharmaceutique des personnes sous traitements chroniques : anticoagulants oraux (AOD/AVK), asthme avec corticoïdes inhalés, anticancéreux oraux et bilan partagé de médication pour les personnes âgées polymédiquées.",
+    "bullets": [
+      "Suivi régulier de votre traitement",
+      "Détection des interactions médicamenteuses",
+      "Conseils d'observance",
+      "Coordination avec votre médecin",
+      "Bilan partagé de médication"
+    ],
+    "prerequisites": [
+      "Traitement chronique en cours",
+      "Ordonnance à jour",
+      "Carte vitale"
+    ],
+    "cta": "Prendre RDV"
+  },
+  {
+    "slug": "depistage",
+    "title": "Tests de dépistage",
+    "summary": "Tests urinaire, angine (TROD), COVID et autres dépistages rapides.",
+    "description": "Nous proposons une gamme complète de tests de dépistage rapides : infections urinaires, angine (TROD), COVID-19, tests antigéniques. Résultats en quelques minutes avec interprétation par notre équipe.",
+    "bullets": [
+      "Résultats rapides (10-15 minutes)",
+      "Conseils personnalisés selon résultats",
+      "Orientation médicale si nécessaire",
+      "Tests certifiés et fiables"
+    ],
+    "prerequisites": [
+      "Aucune prescription nécessaire",
+      "À jeun pour certains tests spécifiques"
+    ],
+    "cta": "Prendre RDV"
+  },
+  {
+    "slug": "renouvellement-ordonnance",
+    "title": "Renouvellement d'ordonnance",
+    "summary": "Accompagnement dans le respect du cadre légal en vigueur.",
+    "description": "Dans le cadre légal autorisé, notre pharmacien peut vous aider au renouvellement exceptionnel de votre traitement chronique en cas d'urgence, en coordination avec votre médecin traitant.",
+    "bullets": [
+      "Évaluation par le pharmacien",
+      "Coordination avec votre médecin",
+      "Conseils de bon usage du médicament",
+      "Délivrance sécurisée et tracée"
+    ],
+    "prerequisites": [
+      "Ordonnance expirée récemment",
+      "Traitement chronique déjà instauré",
+      "Carte vitale à jour"
+    ],
+    "cta": "En savoir plus"
+  }
+]
