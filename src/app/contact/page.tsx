@@ -136,10 +136,10 @@ export default function ContactPage() {
                   href={process.env.NEXT_PUBLIC_DOCTOLIB_URL || '#'}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-primary w-full justify-center"
+                  className="btn-primary w-full inline-flex items-center justify-center gap-2 flex-nowrap"
                 >
-                  <Calendar className="w-5 h-5" />
-                  Prendre RDV sur Doctolib
+                  <Calendar className="w-5 h-5 flex-shrink-0" />
+                  <span className="whitespace-nowrap">Prendre RDV sur Doctolib</span>
                 </Link>
               </div>
             </SectionReveal>

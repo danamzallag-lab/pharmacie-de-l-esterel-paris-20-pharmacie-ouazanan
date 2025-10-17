@@ -31,13 +31,13 @@ const colorMap: Record<string, string> = {
 }
 
 const imageMap: Record<string, string> = {
-  vaccination: 'https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&q=80',
-  depistage: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&q=80',
-  'renouvellement-ordonnance': 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80',
-  'consultation-pharmacien': 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
-  'bilan-prevention': 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
-  'suivi-pathologies-chroniques': 'https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80',
-  'location-materiel-medical': 'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&q=80',
+  vaccination: 'https://images.unsplash.com/photo-1632053002009-2yiZvOknHvw?w=800&q=80',
+  'consultation-pharmacien': 'https://images.unsplash.com/photo-1576671081837-49000212a370?w=800&q=80',
+  'bilan-prevention': 'https://images.unsplash.com/photo-1615461066159-fea0960485d5?w=800&q=80',
+  'suivi-pathologies-chroniques': 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80',
+  depistage: 'https://images.unsplash.com/photo-1583947581924-860bda6a26df?w=800&q=80',
+  'renouvellement-ordonnance': 'https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&q=80',
+  'location-materiel-medical': 'https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&q=80',
 }
 
 export default function ServicesPage() {

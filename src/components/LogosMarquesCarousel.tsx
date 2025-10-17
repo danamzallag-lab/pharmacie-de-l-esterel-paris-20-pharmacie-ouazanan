@@ -51,7 +51,7 @@ export default function LogosMarquesCarousel() {
 
           {/* Scrolling container */}
           <motion.div
-            className="flex gap-16"
+            className="flex gap-20"
             animate={{
               x: isPaused ? 0 : ['0%', '-50%'],
             }}
@@ -67,14 +67,14 @@ export default function LogosMarquesCarousel() {
             {duplicatedMarques.map((marque, index) => (
               <div
                 key={`${marque.name}-${index}`}
-                className="flex-shrink-0 w-40 h-24 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
+                className="flex-shrink-0 w-56 h-32 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-60 hover:opacity-100"
               >
                 <div className="relative w-full h-full flex items-center justify-center p-4">
                   <Image
                     src={marque.logo}
                     alt={`Logo ${marque.name}`}
-                    width={160}
-                    height={80}
+                    width={224}
+                    height={128}
                     className="object-contain w-full h-full"
                     style={{ maxWidth: '100%', height: 'auto' }}
                   />
