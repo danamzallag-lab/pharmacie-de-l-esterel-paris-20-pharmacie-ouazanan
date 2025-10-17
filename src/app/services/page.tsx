@@ -31,13 +31,13 @@ const colorMap: Record<string, string> = {
 }
 
 const imageMap: Record<string, string> = {
-  vaccination: 'https://images.unsplash.com/photo-1632053002009-2yiZvOknHvw?w=800&q=80',
-  'consultation-pharmacien': 'https://images.unsplash.com/photo-1576671081837-49000212a370?w=800&q=80',
+  vaccination: '/images/services/vaccination.jpg',
+  'consultation-pharmacien': '/images/services/consultation-pharmacien.jpg',
   'bilan-prevention': 'https://images.unsplash.com/photo-1615461066159-fea0960485d5?w=800&q=80',
   'suivi-pathologies-chroniques': 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80',
-  depistage: 'https://images.unsplash.com/photo-1583947581924-860bda6a26df?w=800&q=80',
-  'renouvellement-ordonnance': 'https://images.unsplash.com/photo-1585435557343-3b092031a831?w=800&q=80',
-  'location-materiel-medical': 'https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&q=80',
+  depistage: '/images/services/depistage.jpg',
+  'renouvellement-ordonnance': '/images/services/renouvellement-ordonnance.jpg',
+  'location-materiel-medical': '/images/services/location-materiel-medical.jpg',
 }
 
 export default function ServicesPage() {
