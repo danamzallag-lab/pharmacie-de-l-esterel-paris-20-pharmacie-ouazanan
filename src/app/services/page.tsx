@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
-import { Syringe, TestTube, FileText, Calendar, Clock, Shield, HeartPulse, Activity, Users } from 'lucide-react'
+import { Syringe, TestTube, FileText, Calendar, Clock, Shield, HeartPulse, Activity, Users, Package } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { SectionReveal } from '@/components/SectionReveal'
 import servicesData from '@/content/services.json'
 
@@ -16,6 +17,7 @@ const iconMap: Record<string, any> = {
   'consultation-pharmacien': HeartPulse,
   'bilan-prevention': Activity,
   'suivi-pathologies-chroniques': Users,
+  'location-materiel-medical': Package,
 }
 
 const colorMap: Record<string, string> = {
@@ -25,6 +27,17 @@ const colorMap: Record<string, string> = {
   'consultation-pharmacien': 'from-blue-500 to-blue-700',
   'bilan-prevention': 'from-green-500 to-green-700',
   'suivi-pathologies-chroniques': 'from-purple-500 to-purple-700',
+  'location-materiel-medical': 'from-orange-500 to-orange-700',
+}
+
+const imageMap: Record<string, string> = {
+  vaccination: 'https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&q=80',
+  depistage: 'https://images.unsplash.com/photo-1579154204601-01588f351e67?w=800&q=80',
+  'renouvellement-ordonnance': 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80',
+  'consultation-pharmacien': 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80',
+  'bilan-prevention': 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
+  'suivi-pathologies-chroniques': 'https://images.unsplash.com/photo-1576602976047-174e57a47881?w=800&q=80',
+  'location-materiel-medical': 'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=800&q=80',
 }
 
 export default function ServicesPage() {
@@ -130,10 +143,17 @@ export default function ServicesPage() {
                         </Link>
                       </div>
 
-                      {/* Image placeholder */}
+                      {/* Image */}
                       <div className={index % 2 === 1 ? 'lg:order-1' : ''}>
-                        <div className="card bg-gradient-to-br from-primary/5 to-accent/5 dark:from-primary/10 dark:to-accent/10 h-96 flex items-center justify-center">
-                          <Icon className="w-32 h-32 text-primary/20 dark:text-primary/30" />
+                        <div className="card overflow-hidden p-0 h-96 relative group">
+                          <Image
+                            src={imageMap[service.slug]}
+                            alt={service.title}
+                            fill
+                            className="object-cover group-hover:scale-110 transition-transform duration-500"
+                            sizes="(max-width: 768px) 100vw, 50vw"
+                          />
+                          <div className={`absolute inset-0 bg-gradient-to-br ${color} opacity-20 group-hover:opacity-10 transition-opacity duration-300`} />
                         </div>
                       </div>
                     </div>

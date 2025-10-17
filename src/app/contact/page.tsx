@@ -144,15 +144,21 @@ export default function ContactPage() {
               </div>
             </SectionReveal>
 
-            {/* Map placeholder */}
+            {/* Google Maps */}
             <SectionReveal direction="right">
               <div className="sticky top-24">
-                <div className="card h-[600px] bg-gradient-to-br from-primary/5 to-accent/5 dark:from-primary/10 dark:to-accent/10 flex flex-col items-center justify-center">
-                  <MapPin className="w-16 h-16 text-primary mb-4" />
-                  <div className="text-center text-dark/60 dark:text-light/60">
-                    <p className="font-semibold mb-2">Google Maps</p>
-                    <p className="text-sm">Intégration disponible</p>
-                  </div>
+                <div className="card h-[600px] overflow-hidden p-0">
+                  <iframe
+                    src={process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL}
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Localisation Pharmacie Dr Ouazanan"
+                    className="rounded-2xl"
+                  />
                 </div>
               </div>
             </SectionReveal>

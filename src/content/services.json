@@ -105,5 +105,25 @@
       "Carte vitale à jour"
     ],
     "cta": "En savoir plus"
+  },
+  {
+    "slug": "location-materiel-medical",
+    "title": "Location et achat de matériel médical",
+    "summary": "Vente et location de matériel médical : béquilles, fauteuils roulants, lits médicalisés, aérosols et plus.",
+    "description": "Notre pharmacie propose un large choix de matériel médical à la vente et à la location : béquilles, cannes, déambulateurs, fauteuils roulants, lits médicalisés, matelas anti-escarres, tire-lait, aérosols. Nous vous conseillons et vous accompagnons dans le choix du matériel adapté à vos besoins.",
+    "bullets": [
+      "Large gamme de matériel disponible",
+      "Location courte et longue durée",
+      "Prise en charge possible par l'Assurance Maladie",
+      "Livraison et installation à domicile",
+      "Conseils d'utilisation et d'entretien",
+      "Service après-vente et maintenance"
+    ],
+    "prerequisites": [
+      "Ordonnance médicale pour la prise en charge",
+      "Carte vitale et mutuelle à jour",
+      "Réservation recommandée pour certains équipements"
+    ],
+    "cta": "Nous contacter"
   }
 ]

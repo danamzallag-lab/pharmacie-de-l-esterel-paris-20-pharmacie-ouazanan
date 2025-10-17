@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Syringe, TestTube, FileText, ArrowRight, HeartPulse, Activity, Users } from 'lucide-react'
+import { Syringe, TestTube, FileText, ArrowRight, HeartPulse, Activity, Users, Package } from 'lucide-react'
 import Link from 'next/link'
 import { SectionReveal } from './SectionReveal'
 
@@ -53,6 +53,14 @@ const services = [
     summary: 'Accompagnement dans le respect du cadre légal en vigueur.',
     bullets: ['Évaluation pharmacien', 'Coordination médecin', 'Conseils de bon usage'],
     color: 'from-primary-dark to-accent',
+  },
+  {
+    slug: 'location-materiel-medical',
+    title: 'Location matériel médical',
+    icon: Package,
+    summary: 'Vente et location : béquilles, fauteuils roulants, lits médicalisés, aérosols.',
+    bullets: ['Large gamme disponible', 'Prise en charge Sécu', 'Livraison à domicile'],
+    color: 'from-orange-500 to-orange-700',
   },
 ]
 

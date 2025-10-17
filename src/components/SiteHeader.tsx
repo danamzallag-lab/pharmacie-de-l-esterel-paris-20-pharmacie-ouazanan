@@ -1,10 +1,11 @@
 'use client'
 
-import { motion, useScroll, useTransform } from 'framer-motion'
+import { motion, useScroll } from 'framer-motion'
 import { Menu, X, Phone, MapPin, Calendar } from 'lucide-react'
 import Link from 'next/link'
 import { useState, useEffect } from 'react'
 import { ThemeToggle } from './ThemeToggle'
+import { useTheme } from './ThemeProvider'
 
 const navigation = [
   { name: 'Accueil', href: '/' },
@@ -17,12 +18,18 @@ const navigation = [
 
 export default function SiteHeader() {
   const [isOpen, setIsOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
+  const { theme } = useTheme()
   const { scrollY } = useScroll()
-  const backgroundColor = useTransform(
-    scrollY,
-    [0, 100],
-    ['rgba(255, 255, 255, 0)', 'rgba(255, 255, 255, 0.95)']
-  )
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50)
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
 
   useEffect(() => {
     if (isOpen) {
@@ -58,9 +65,12 @@ export default function SiteHeader() {
       </div>
 
       {/* Main header */}
-      <motion.header
-        style={{ backgroundColor }}
-        className="sticky top-0 z-50 backdrop-blur-lg border-b border-transparent dark:border-white/10 transition-colors"
+      <header
+        className={`sticky top-0 z-50 backdrop-blur-lg border-b transition-all duration-300 ${
+          isScrolled
+            ? 'bg-light/95 dark:bg-dark/95 border-dark/10 dark:border-light/10 shadow-lg'
+            : 'bg-transparent border-transparent'
+        }`}
       >
         <nav className="container-custom">
           <div className="flex items-center justify-between h-20">
@@ -124,7 +134,7 @@ export default function SiteHeader() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden border-t border-dark/10 dark:border-light/10"
+            className="lg:hidden border-t border-dark/10 dark:border-light/10 bg-light dark:bg-dark"
           >
             <div className="container-custom py-6 space-y-4">
               {navigation.map((item) => (
@@ -150,7 +160,7 @@ export default function SiteHeader() {
             </div>
           </motion.div>
         )}
-      </motion.header>
+      </header>
     </>
   )
 }
