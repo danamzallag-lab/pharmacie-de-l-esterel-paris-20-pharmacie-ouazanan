@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { Syringe, TestTube, FileText, Calendar, Clock, Shield } from 'lucide-react'
+import { Syringe, TestTube, FileText, Calendar, Clock, Shield, HeartPulse, Activity, Users } from 'lucide-react'
 import Link from 'next/link'
 import { SectionReveal } from '@/components/SectionReveal'
 import servicesData from '@/content/services.json'
@@ -13,12 +13,18 @@ const iconMap: Record<string, any> = {
   vaccination: Syringe,
   depistage: TestTube,
   'renouvellement-ordonnance': FileText,
+  'consultation-pharmacien': HeartPulse,
+  'bilan-prevention': Activity,
+  'suivi-pathologies-chroniques': Users,
 }
 
 const colorMap: Record<string, string> = {
   vaccination: 'from-primary to-primary-dark',
   depistage: 'from-accent to-primary',
   'renouvellement-ordonnance': 'from-primary-dark to-accent',
+  'consultation-pharmacien': 'from-blue-500 to-blue-700',
+  'bilan-prevention': 'from-green-500 to-green-700',
+  'suivi-pathologies-chroniques': 'from-purple-500 to-purple-700',
 }
 
 export default function ServicesPage() {
