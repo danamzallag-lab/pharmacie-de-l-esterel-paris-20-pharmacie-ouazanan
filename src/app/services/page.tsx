@@ -33,11 +33,11 @@ const colorMap: Record<string, string> = {
 const imageMap: Record<string, string> = {
   vaccination: '/images/services/vaccination.png',
   'consultation-pharmacien': '/images/services/consultation-pharmacien.jpg',
-  'bilan-prevention': 'https://images.unsplash.com/photo-1615461066159-fea0960485d5?w=800&q=80',
+  'bilan-prevention': '/images/services/bilan-prevention.png',
   'suivi-pathologies-chroniques': 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80',
   depistage: '/images/services/depistage.png',
   'renouvellement-ordonnance': '/images/services/renouvellement-ordonnance.png',
-  'location-materiel-medical': 'https://images.unsplash.com/photo-1631549916768-4119b2e5f926?w=800&q=80',
+  'location-materiel-medical': '/images/services/location-materiel-medical.png',
 }
 
 export default function ServicesPage() {
